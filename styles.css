@@ -28,9 +28,12 @@ body {
 	font-family: "Outfit", sans-serif;
 }
 
-h1, h2 {
-    font-family: "Young Serif", serif;
+h1,
+h2 {
+	font-family: "Young Serif", serif;
+	font-weight: 400;
 }
+
 
 .recipe {
 	background-color: var(--white);
