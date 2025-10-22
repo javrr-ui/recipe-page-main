@@ -59,14 +59,17 @@ p {
 	width: 100%;
 }
 
+.recipe__content {
+    display: flex;
+    flex-direction: column;
+    padding:2em;
+    width: 100%;
+}
+
 .recipe__img {
 	width: 100%;
 }
 
-header,
-section {
-	padding: 2em;
-}
 
 .recipe__header {
 	display: flex;
