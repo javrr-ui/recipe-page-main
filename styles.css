@@ -46,6 +46,7 @@ h2 {
 	width: 100%;
 }
 
-header, section {
-    padding: 2.3em;
+header,
+section {
+	padding: 2.3em;
 }
