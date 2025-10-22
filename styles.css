@@ -26,3 +26,22 @@ body {
 	min-height: 100vh;
 	background-color: var(--stone-100);
 }
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+}
+
+.recipe {
+	background-color: var(--white);
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.recipe__img {
+	width: 100%;
+}
+
+header, section {
+    padding: 2.3em;
+}
