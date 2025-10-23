@@ -60,19 +60,46 @@ p {
 }
 
 .recipe__content {
-    display: flex;
-    flex-direction: column;
-    padding:2em;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+	width: 100%;
 }
 
 .recipe__img {
 	width: 100%;
 }
 
-
 .recipe__header {
 	display: flex;
 	flex-direction: column;
 	gap: 1.5em;
+}
+
+.preparation-time {
+	background-color: var(--rose-50);
+	padding: 1.2em;
+	border-radius: 0.8em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.preparation-time__list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.preparation-time__item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.preparation-time__item p {
+	color: var(--rose-800);
+	font-size: 25px;
+	padding: 0.5em 1em 0.5em 0.5em;
+	line-height: 0%;
 }
