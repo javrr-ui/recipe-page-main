@@ -122,3 +122,22 @@ p {
 	padding: 0.5em 1em 0.5em 0.5em;
 	line-height: 0%;
 }
+
+.instructions__list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.instructions__item {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+.instructions__item p {
+	color: var(--brown-800);
+	font-weight: 800;
+	padding: 0.5em 1em 0.5em 0.5em;
+	line-height: 0%;
+}
