@@ -103,3 +103,22 @@ p {
 	padding: 0.5em 1em 0.5em 0.5em;
 	line-height: 0%;
 }
+
+.ingredients__list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.ingredients__item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.ingredients__item p {
+	color: var(--brown-800);
+	font-size: 25px;
+	padding: 0.5em 1em 0.5em 0.5em;
+	line-height: 0%;
+}
