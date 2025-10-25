@@ -141,3 +141,21 @@ p {
 	padding: 0.5em 1em 0.5em 0.5em;
 	line-height: 0%;
 }
+
+.division__line {
+	border: none;
+	height: 1px;
+	background-color: var(--stone-150);
+}
+
+.nutrition__table {
+	width: 100%;
+}
+
+.nutrition__row {
+	border-bottom: 1px solid var(--stone-150);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
