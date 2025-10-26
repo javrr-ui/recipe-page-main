@@ -24,7 +24,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background-color: var(--stone-100);
+	background-color: var(--white);
 	font-family: "Outfit", sans-serif;
 	color: var(--stone-600);
 }
